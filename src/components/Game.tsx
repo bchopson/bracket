@@ -2,19 +2,16 @@
 
 // TODO: move to types
 type Team = {
-  name: string
-}
+  name: string;
+};
 
 export type GameProps = {
-  home: Team
-  away: Team
-}
+  home: Team;
+  away: Team;
+};
 
 function Game(props: GameProps) {
-  return (
-    <div>
-    </div>
-  );
+  return <div></div>;
 }
 
 export default Game;
